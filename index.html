@@ -118,6 +118,28 @@
 </head>
 
 <body>
+<!-- Nút bật nhạc -->
+<button onclick="document.getElementById('bgm').play()" style="
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 999;
+  padding: 10px 16px;
+  background-color: #fff;
+  color: #333;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+">
+  🎶 Bấm nghe nhạc
+</button>
+
+<!-- Nhạc nền -->
+<audio id="bgm" loop>
+  <source src="https://cdn.pixabay.com/audio/2023/05/12/audio_d8a5dffbdb.mp3" type="audio/mpeg">
+</audio>
   <!-- THIỆP MỜI -->
   <div class="box">
     <div>
